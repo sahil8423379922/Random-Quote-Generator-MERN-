@@ -1,0 +1,26 @@
+.center {
+  display: flex;
+  justify-content: center;
+  
+  align-items: center;
+  height: 100vh; /* This ensures the content is vertically centered in the viewport */
+}
+
+.quote{
+  font-size: 30px;
+  text-align: center;
+  
+}
+
+.author{
+  text-align: right;
+  
+}
+
+.icon{
+  padding: 5px;
+}
+
+.fade {
+  transition: background-color 2s ease;
+}
